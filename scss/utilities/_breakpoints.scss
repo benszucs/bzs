@@ -1,0 +1,46 @@
+//Main media queries
+@media screen and (max-width: 768px) {
+  .title-lg {font-size: 2rem !important;}
+}
+
+@media screen and (min-width: 769px) {
+  .title-lg {font-size: 2.5rem !important}
+  .title-md {font-size: 2rem !important}
+  .intro-content, .outro-content {width: 70% !important}
+  .skills-content {display: flex}
+  .col-card {width: 50% !important}
+  .col-3 {
+    width: 33.33% !important;
+    border-bottom: 0 !important;
+  }
+  .col-3:not(:last-child) {
+    border-right: 1px solid #D3D3D3 !important;
+    border-radius: 0 !important;
+  }
+  .fixed {width: 33.33%;}
+  .projects-text {font-size: 0.8rem !important}
+  .is-narrow {width: 80% !important}
+}
+
+@media screen and (min-width: 1088px) {
+  .title-lg {font-size: 3rem !important}
+  .subtitle {font-size: 1.5rem !important}
+  .wrapper {width: 960px !important}
+  .col-card {width: 33.33% !important}
+  .just-center {justify-content: center !important}
+  .projects-text {font-size: 1rem !important}
+  .is-narrow {width: 60% !important}
+}
+
+@media screen and (min-width: 1280px) {
+  .wrapper {width: 1152px !important}
+}
+
+@media screen and (min-width: 1472px) {
+  .wrapper {width: 1344px !important}
+}
+
+//random font changes
+@media screen and (min-width: 475px) {
+  .overlay-content > span {font-size: 1rem !important}
+}

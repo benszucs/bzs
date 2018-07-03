@@ -1,0 +1,27 @@
+.footer {
+  padding: 0rem 1.5rem 4rem;
+}
+
+.social-icon {
+  font-size: 3rem;
+  color: $gold;
+  &:hover {
+    color: #4d4e4f;
+  }
+  transition: all .25s ease-in-out;
+}
+
+.social-icon-container {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-link {
+  padding: 0.5rem;
+}
+
+.icons {
+  margin: 3rem auto 3rem;
+}

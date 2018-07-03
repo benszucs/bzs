@@ -1,0 +1,126 @@
+// body, html {font-family: 'europa', sans-serif;}
+@font-face {
+  font-family: "BigNoodleTitling";
+  src: url("fonts/big_noodle_titling_oblique.ttf");
+}
+
+@font-face {
+  font-family: 'Heebo';
+  src: url("https://fonts.googleapis.com/css?family=Heebo:300");
+}
+
+body {font-family: "Heebo", sans-serif}
+
+.text-center {text-align: center !important}
+
+.m-0 {margin-bottom: 0 !important}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.narrow {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.is-narrow {margin: 0 auto;}
+
+.rounded {border-radius: 50%}
+
+.border-radius {
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.absolute {position: absolute}
+
+.white-text {color: white}
+
+.gold-text {color: $gold}
+
+.dark-text {color: #4d4e4f}
+
+.gold-bg {background-color: $gold}
+
+.text-shadow {text-shadow: $gold 1px 1px;}
+
+.title-lg, .subtitle, .title-sm, .text, .title-md {
+  word-break: break-word;
+  margin-bottom: 1.5rem;
+}
+
+.title-lg {
+  font-weight: 800;
+  line-height: 1.125;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.title-sm, .title-md {
+  font-weight: 800;
+  line-height: 1.125;
+}
+
+.title-sm {
+  font-size: 1.25rem;
+}
+
+.title-md {
+  font-size: 1.5rem;
+}
+
+.text {
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+// .title-backlay {
+//   background-color: $gold;
+//   padding: 1.5rem;
+//   border-radius: 12px;
+// }
+//
+// .title-border {
+//   padding: 1rem;
+//   border: solid 1px white;
+//   border-radius: 12px;
+// }
+
+.button {
+  display: inline-flex;
+  height: 2.25em;
+  padding: 1.2rem;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: top;
+  align-items: center;
+  font-weight: 800;
+  font-size: 18px;
+  border: 2px solid $gold;
+  color: $gold;
+  border-radius: 100px;
+  cursor: pointer;
+  &:hover {
+    background-color: $gold !important;
+    color: white !important;
+  }
+  transition: all .25s ease-in-out;
+}
+
+.skills, .projects {
+  padding: 5rem 1.5rem 5rem 1rem;
+  color: #4d4e4f !important;
+}
+
+.gap {
+  margin-bottom: 3rem !important;
+}

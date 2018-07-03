@@ -1,0 +1,40 @@
+.modal-projects {
+  padding: 3rem 2rem 5rem 2rem;
+}
+
+.modal-project-img {
+  display: block;
+  width: 100%;
+  max-width: 350px !important;
+  margin: 0 auto 1rem auto;
+  border-radius: 12px;
+}
+
+.fixed {
+  padding: 2rem !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.temp-container {
+  text-align: center;
+}
+
+.temp-title {
+  font-weight: 800;
+  line-height: 1.125;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.fixed > img {
+  border-radius: 12px;
+}
+
+.projects-text {max-width: 350px}
+.fa-desktop {
+  font-size: 2.7rem;
+  margin-left: 1rem;
+}

@@ -1,0 +1,22 @@
+.info {
+  margin-top: -10rem;
+  padding: 5rem 1rem 5rem 1rem;
+}
+
+.info-content {
+  display: flex;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 5px 5px 0 rgba(233,240,243,0.5), 0 0 0 1px #D3D3D3;
+  border: 1px solid #D3D3D3;
+}
+
+.flex-grow {
+  padding: 0 1rem;
+  flex-grow: 1;
+  align-self: center;
+  color: #4d4e4f !important;
+  p {
+    margin-bottom: 0 !important;
+  }
+}

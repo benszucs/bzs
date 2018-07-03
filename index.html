@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <title>Ben Szucs</title>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-bg"></div>
+      <div class="wrapper">
+        <div class="nav">
+          <div class="button-container">
+            <a href="/">
+              <h4 class="button">BSZ</h4>
+            </a>
+          </div>
+          <div class="button-right">
+            <a href="../pdf/CV.pdf" target="_blank">
+              <div class="button">CV</div>
+            </a>
+          </div>
+        </div>
+        <div class="hero-content">
+          <!-- <div class="title-backlay"> -->
+            <!-- <div class="title-border"> -->
+              <h1 class="title-lg white-text text-center text-shadow">Aspiring Front-end Developer</h1>
+              <h3 class="subtitle white-text text-center text-shadow">The journey so far...</h3>
+            <!-- </div> -->
+          <!-- </div> -->
+          <div class="rounded img-bg">
+            <img src="img/ben.png" alt="Ben Szucs" class="rounded absolute ben-img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="into gold-bg">
+    <div class="wrapper">
+      <div class="intro-content">
+        <h2 class="title-md text-center white-text">Hi, I'm Ben. Welcome to my website.</h2>
+        <p class="text text-center white-text">Since embarking on the journey of becoming a front-end developer I have familiarised myself with many languages and technologies, with the sole purpouse of becoming an employable developer. I have only started coding in the Spring of 2017, and despite all the obstacles that came my way, I had one of the most fun and empowering years of my life. I have proven to myself that with enough hard-work and perseverence I am able to teach myself code and that one day I can have that dream job.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills">
+    <div class="wrapper narrow">
+      <div class="skills-content">
+        <div class="col-3">
+          <div class="icon-container">
+            <i class="fas fa-code skills-icon"></i>
+          </div>
+          <h1 class="title-sm text-center gold-text">Front-end</h1>
+          <p class="text text-center">Mainly focused on core front-end technologies, while experimenting with frameworks.</p>
+          <p class="text text-center list-title gold-text">Technologies learned</p>
+          <ul class="text text-center">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SASS</li>
+            <li>Bootstrap</li>
+            <li>JavaScript</li>
+            <li>JQuery</li>
+            <li>React</li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <div class="icon-container">
+            <i class="fas fa-terminal skills-icon"></i>
+          </div>
+          <h1 class="title-sm text-center gold-text">Back-end</h1>
+          <p class="text text-center">Unfortunately I have not spent time with back-end technologies to be competent at it, however it is something I am adamant to add to my arsenal.</p>
+          <p class="text text-center">Familiar with Ruby and PHP syntax. Built command line games and fequently solved Prjoect Euler problems.</p>
+          <p class="text text-center">Currently working my way through a Node.js Udemy course to get familiar with the MERN stack.</p>
+        </div>
+        <div class="col-3">
+          <div class="icon-container">
+            <i class="fas fa-wrench skills-icon"></i>
+          </div>
+          <h1 class="title-sm text-center gold-text">Dev Tools</h1>
+          <p class="text text-center">Made a conscious effort to familiarise myself with as many useful programming tools as possible.</p>
+          <p class="text text-center list-title gold-text">Tools used</p>
+          <ul class="text text-center">
+            <li>Atom</li>
+            <li>Git</li>
+            <li>Linux</li>
+            <li>Terminal</li>
+            <li>Balsamiq</li>
+            <li>Adobe Illustrator</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Projects -->
+
+  <section class="projects">
+    <div class="wrapper narrow">
+      <h1 class="title-md text-center gap">My Recent Projects</h1>
+      <p class="title-md text-center">Websites</p>
+      <p class="text text-center is-narrow">Spent a lot of time practicing building responsive websites from scratch, before using frameworks like Bootstrap. </p>
+
+      <div class="project-grid-3">
+        <div class="col-card">
+          <div class="project-container border-radius">
+            <img src="img/portfolio.png" alt="" class="project-image">
+            <div class="overlay">
+              <div class="overlay-text">
+                <div class="overlay-content">
+                  <span>Fully responsive website, built from scratch to showcase my projects to date.</span>
+                </div>
+                <div class="overlay-content">
+                  <span class="button overlay-button modal-button" id="project1">Find out more</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-card">
+          <div class="project-container border-radius">
+            <img src="img/dsign.png" alt="" class="project-image">
+            <div class="overlay">
+              <div class="overlay-text">
+                <div class="overlay-content">
+                  <span>Responsive website built using a graphics design student's design concept.</span>
+                </div>
+                <div class="overlay-content">
+                  <span class="button overlay-button modal-button" id="project2">Find out more</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-card">
+          <div class="project-container border-radius">
+            <img src="img/conquer.png" alt="" class="project-image">
+            <div class="overlay">
+              <div class="overlay-text">
+                <div class="overlay-content">
+                  <span>Recreation of an existing template. My very first responsive website.</span>
+                </div>
+                <div class="overlay-content">
+                  <span class="button overlay-button modal-button" id="project3">Find out more</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- end of project grid -->
+
+      <p class="title-md text-center">React.js</p>
+      <p class="text text-center is-narrow">When I felt really comfortable with the core technologies I decided to go though some Treehouse and Youtube tutorials to see how React.js works.</p>
+
+      <div class="project-grid-3 just-center">
+        <div class="col-card">
+          <div class="project-container border-radius">
+            <img src="img/weather.png" alt="" class="project-image">
+            <div class="overlay">
+              <div class="overlay-text">
+                <div class="overlay-content">
+                  <span>Web application that displays weather forecast for given city. Built using React.js and the Open Weather Map API.</span>
+                </div>
+                <div class="overlay-content">
+                  <span class="button overlay-button modal-button" id="project4">Find out more</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- end of project grid -->
+        <div class="col-card">
+          <div class="project-container border-radius">
+            <img src="img/movie.png" alt="" class="project-image">
+            <div class="overlay">
+              <div class="overlay-text">
+                <div class="overlay-content">
+                  <span>Web application that displays best movies by year. Built using React.js and The Movie DB API.</span>
+                </div>
+                <div class="overlay-content">
+                  <span class="button overlay-button modal-button" id="project5">Find out more</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <p class="title-md text-center">JavaScript</p>
+      <p class="text text-center is-narrow">Since JavaScript is my chosen first-language I want to master, I have spent many hours studying it. I am always trying to expand this skill through books, tutorials, blogs etc. Main reason being, is that I can use it for both front-end and back-end.</p>
+      <div class="project-grid-3">
+        <div class="col-card">
+          <div class="project-container border-radius">
+            <img src="img/quiz.png" alt="" class="project-image">
+            <div class="overlay">
+              <div class="overlay-text">
+                <div class="overlay-content">
+                  <span>Small quiz built with JavaScript objects.</span>
+                </div>
+                <div class="overlay-content">
+                  <span class="button overlay-button modal-button" id="project6">Find out more</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-card">
+          <div class="project-container border-radius">
+            <img src="img/library.png" alt="" class="project-image">
+            <div class="overlay">
+              <div class="overlay-text">
+                <div class="overlay-content">
+                  <span>Library app where user can add/remove books. Built using JavaScript objects.</span>
+                </div>
+                <div class="overlay-content">
+                  <span class="button overlay-button modal-button" id="project7">Find out more</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-card">
+          <div class="project-container border-radius">
+            <img src="img/calculator.png" alt="" class="project-image">
+            <div class="overlay">
+              <div class="overlay-text">
+                <div class="overlay-content">
+                  <span>Basic JavaScript calculator.</span>
+                </div>
+                <div class="overlay-content">
+                  <span class="button overlay-button modal-button" id="project8">Find out more</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="outro gold-bg">
+    <div class="wrapper">
+      <div class="outro-content">
+        <h2 class="title-md text-center white-text">Career Objective</h2>
+        <p class="text text-center white-text">I started with front-end development because I felt it would be the fastest route to get myself into the technology/software industry. With time I would specialise, but also diversify my skill-set, learning as much as possible. In full time employment, I will be able to focus on front-end development at least 8 hours a day, my spare time would free up to learn back-end, databases and much more. My number one priority is to become  a productive, full-stack developer to be able to directly contribute to the growth of any business.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="info">
+    <div class="wrapper narrow">
+      <div class="info-content">
+        <a href="/">
+          <div class="button">BSZ</div>
+        </a>
+        <div class="flex-grow text-center">
+          <p class="text">Interested in hiring me? Let's have a chat</p>
+        </div>
+        <a href="../pdf/CV.pdf" target="_blank">
+          <div class="button">CV</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <div class="wrapper narrow">
+      <div class="icons">
+        <div class="social-icon-container">
+          <a href="https://www.linkedin.com/in/bendeguz-szucs-91b504122/" target="_blank" class="social-link">
+            <i class="fab fa-linkedin social-icon"></i>
+          </a>
+          <a href="https://github.com/benszucs" target="_blank" class="social-link">
+            <i class="fab fa-github-square social-icon"></i>
+          </a>
+          <a href="mailto:benszucs@gmail.com" class="social-link">
+            <i class="fas fa-envelope-square social-icon"></i>
+          </a>
+          <!-- <a href="#" class="social-link">
+            <i class="fab fa-product-hunt social-icon"></i>
+          </a> -->
+        </div>
+      </div>
+      <p class="text text-center dark-text">Handcrafted by me</p>
+    </div>
+  </section>
+
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div id="modal-projects"></div>
+        </div>
+      </div>
+
+
+
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/content.js"></script>
+</body>
+</html>

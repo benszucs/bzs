@@ -1,0 +1,61 @@
+.hero-container {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("../img/hero2.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  // opacity: 0.9;
+}
+
+.logo {
+  max-height: 3rem;
+}
+
+.hero-container {
+  display: block;
+  margin: 0 auto;
+}
+
+.nav {
+  min-height: 3.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1.2rem 1rem;
+  .button-right {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+  }
+}
+
+.hero-content {
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 3rem 1.5rem;
+}
+
+.img-bg {
+  position: relative;
+  background-color: $gold;
+  width: 220px;
+  height: 220px;
+  margin: 2rem auto;
+}
+
+.ben-img {
+  width: 200px;
+  top: 10px;
+  left: 10px;
+}
